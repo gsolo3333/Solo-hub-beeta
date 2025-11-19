@@ -1,5 +1,8 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/gsolo3333/Library/refs/heads/main/solo-V5-remake/main.luau"))()
 
+urls.Owner = "https://raw.githubusercontent.com/gsolo3333/";
+urls.Repository = urls.Owner .. "Scripts/refs/heads/main/";
+
 local SourceCode = ("loadstring(game:HttpGet('%smain.lua'))(%s)"):format(urls.Repository, SettingsCode)
 		
 
