@@ -1,5 +1,8 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/gsolo3333/Library/refs/heads/main/solo-V5-remake/main.luau"))()
 
+local SourceCode = ("loadstring(game:HttpGet('%smain.lua'))(%s)"):format(urls.Repository, SettingsCode)
+		
+
 local Window = Library:MakeWindow({
   Title = "Nice Hub : Cool Game",
   SubTitle = "dev by solo3333",
